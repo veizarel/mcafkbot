@@ -14,7 +14,7 @@ app.listen(3000, () => {
 // 2. Конфигурация на Minecraft бота
 const botArgs = {
   host: 'primerno6pek.mcsh.io', // Сложи IP-то тук
-  port: 25565,                  // Сложи порта тук
+  port: 30294,                  // Сложи порта тук
   username: 'DrujServeraBuden',
   version: '1.21.10'             // Сложи твоята версия
 };
@@ -37,5 +37,6 @@ function createBot() {
 
   bot.on('error', (err) => console.log('Грешка:', err));
 }
+
 
 createBot();
